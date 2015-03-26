@@ -1,0 +1,12 @@
+no sleep
+
+single thread:     4800.4 i/s
+fiber:             1228.2 i/s - 3.91x slower
+multithread:       832.5 i/s - 5.77x slower
+
+
+sleep 0.1
+
+multithread:        9.8 i/s
+fiber:              0.5 i/s - 19.78x slower
+single thread:      0.5 i/s - 19.78x slower
